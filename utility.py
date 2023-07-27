@@ -8,6 +8,11 @@ def showScore(y_true, y_pred):
   print("mean absolute error:","{:.5f}".format(mean_absolute_error(y_true, y_pred)))
   print("r2 score:","{:.5f}".format(r2_score(y_true, y_pred)))
   print("explained variance score:","{:.5f}".format(explained_variance_score(y_true, y_pred)))
+  d = []
+  for i in range(len(y_true)):
+    d.append(sum(abs(y_true[i] - y_pred[i])))
+  d = np.asarray(d)
+  print("maximum absolute error:","{:.5f}".format(d.max()))
 
 class CustomDataset(Dataset):
     def __init__(self, pickle_file, window_size = 40, window_offset = 40):
