@@ -2,6 +2,7 @@ from sklearn.metrics import *
 import pickle
 from torch.utils.data import Dataset
 import numpy as np
+import torch
 
 def showScore(y_true, y_pred):
   print("mean absolute error:","{:.5f}".format(mean_absolute_error(y_true, y_pred)))
