@@ -7,7 +7,7 @@ We compare the Stacked-LSTM model with:
 <ol>
 <li>Sequence-to-Sequence Regression Model</li>
 <li>Random Forest Regression</li>
-<li>Linear Regression</li>
+<li><a href="https://colab.research.google.com/drive/1wNYPuS9aUC5deLNgvvvObgfD4ED1JBFh">Linear Regression</a></li>
 <li>Sequence-to-sequence with Bahdanau Attention Regression Model</li>
 <li>Multi-layer Perceptron Regression Model</li>
 <li>Stacked Residual LSTM Regression Model</li>
