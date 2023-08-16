@@ -19,9 +19,17 @@ Two sample data are provided in data directory:<br/>
 train.pickle and test.pickle<br/>
 One for training, one for testing.
 <hr/>
-Please Feel free to cite our paper:
 
-
+## Citing Us
+If you find this project useful in your research, please use the following BibTeX entry for citation.
+```BibTeX
+@inproceedings{siow2023muscle,
+  title={Muscle Estimation using Stacked-LSTM Multivariate Regression Model},
+  author={Siow, ChyanZheng and Wang, WeiHao and Chuquirachi, Franz and Saputra, Azhar Aulia and Obo, Takenori and Kubota, Naoyuki},
+  booktitle={The 31th Symposium~on~Fuzzy, Artificial Intelligence, Neural Networks and Computational~Intelligence},
+  year={2023}
+}
+```
 
 
 
